@@ -13,4 +13,4 @@ model User {
   password  String
   role      String   @default("employee")
   createdAt DateTime @default(now())
-}.
+}
